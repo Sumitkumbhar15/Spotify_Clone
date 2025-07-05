@@ -130,3 +130,38 @@ a {
     width: fit-content;
     cursor: pointer;
 }
+
+.dark-badge {
+    background-color: #000;
+    color: #fff;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons {
+    margin-left: 0.75rem;
+}
+
+.sticky-nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-nav-options button {
+    margin-right: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .hide{
+        display: none;
+    }
+}
