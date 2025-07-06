@@ -112,7 +112,36 @@
                 <div class="line"></div>
             </div>
         </div>
-        <div class="music-player">Music Player</div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./assets/images/card2img.jpeg" class="music-player-img" alt="song">
+                <p class="album-song-heading">Mahiye Jinna <br> Sohna</p>
+                <i class="fa-regular fa-heart album-icon"></i>
+                <i class="fa-regular fa-window-maximize album-icon"></i>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="./assets/icons/player_icon1.png" class="player-control-icon" alt="player-control-icon">
+                    <img src="./assets/icons/player_icon2.png" class="player-control-icon" alt="player-control-icon">
+                    <img src="./assets/icons/player_icon3.png" class="player-control-icon" alt="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/icons/player_icon4.png" class="player-control-icon" alt="player-control-icon">
+                    <img src="./assets/icons/player_icon5.png" class="player-control-icon" alt="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" class="progress-bar" min="0" max="100" value="0">
+                    <span class="total-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-regular fa-square-caret-right controls-icon"></i>
+                <i class="fa-solid fa-microphone fa-rotate-by controls-icon" style="--fa-rotate-angle: 45deg;"></i>
+                <i class="fa-solid fa-align-justify controls-icon"></i>
+                <i class="fa-solid fa-mobile-screen controls-icon"></i>
+                <i class="fa-solid fa-volume-low controls-icon"></i>
+                <input type="range" class="volume-bar" min="0" max="100" value="10">
+            </div>
+        </div>
     </div>
 </body>
 </html>
